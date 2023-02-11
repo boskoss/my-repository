@@ -1,0 +1,84 @@
+body {
+    background-color: black;
+}
+
+
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+}
+
+h1 {
+  font-size: 50px;
+  color: white;
+  font-family: monospace;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+h2 {
+  font-size: 25px;
+  color: white;
+  font-family: monospace;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+button {
+  background-color: #000000;
+  border: 2px solid white;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-family: monospace;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+button:hover {
+  background-color: #111111;
+}
+
+select {
+    background-color: #000000;
+    border: 2px solid white;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-family: monospace;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+br {
+  line-height: 1.5;
+}
+
+
+
+  #launcher{
+    width:500px;
+    margin:0px auto 0px auto;
+    height:550px;
+    transition:box-shadow 2s ease-out;
+    border-radius:25px 25px 25px 25px;
+    text-align:center;
+  }
+  #launcher:hover{
+    box-shadow:0px 0px 5px 10px red inset;
+  }
+  #lbtn{
+    transition:box-shadow 0.5s ease-out;
+      margin: 10px;
+  }
+  #lbtn:hover{
+    box-shadow:0px 0px 5px 10px white ;
+    transition:box-shadow 0.5s ease-in;
+  }
